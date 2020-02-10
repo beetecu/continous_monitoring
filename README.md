@@ -30,7 +30,7 @@ Person tracking through multiple cameras. The person tracker demo is used to bui
 #### Example of usage
 
 ##### Build image 
-cd /multi_camera_multi_person_tracking
+cd /person_tracker
 ./build.sh -> build openvinodevosdk/person_tracker docker image 
 
 ##### run help
