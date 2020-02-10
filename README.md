@@ -42,7 +42,7 @@ After being processed a frame, an event is sent for each detected object. The ev
 #### Example of usage
 
 ##### Build image 
-cd /object_detection
+cd /object_detector
 ./build.sh -> build openvinodevosdk/object_detection docker image 
 
 ##### run help
