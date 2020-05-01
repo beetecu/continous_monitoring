@@ -1,5 +1,6 @@
 
-./**/CERTS/*.*
+object_detector/CERTS/*.*
+person_tracker/CERTS/*.*
 
 # Distribution / packaging
 .Python

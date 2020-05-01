@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e4896ad-a225-4b07-a859-6c6e310ce817" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object_detector/CERTS/cert.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object_detector/CERTS/chain.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object_detector/CERTS/key.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person_tracker/CERTS/cert.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person_tracker/CERTS/chain.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person_tracker/CERTS/key.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/continous_monitoring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/continous_monitoring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detector/code/object_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detector/code/object_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person_tracker/code/person_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/person_tracker/code/person_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -117,14 +106,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/object_detector/README.md" />
         <option value="$PROJECT_DIR$/object_detector/code/object_detector.py" />
         <option value="$PROJECT_DIR$/person_tracker/code/person_tracker.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="814" />
@@ -140,47 +129,6 @@
             <path>
               <item name="continous_monitoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="continous_monitoring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="continous_monitoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="continous_monitoring" type="462c0819:PsiDirectoryNode" />
-              <item name="object_detector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="continous_monitoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="continous_monitoring" type="462c0819:PsiDirectoryNode" />
-              <item name="object_detector" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="continous_monitoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="continous_monitoring" type="462c0819:PsiDirectoryNode" />
-              <item name="object_detector" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="continous_monitoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="continous_monitoring" type="462c0819:PsiDirectoryNode" />
-              <item name="person_tracker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="continous_monitoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="continous_monitoring" type="462c0819:PsiDirectoryNode" />
-              <item name="person_tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="continous_monitoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="continous_monitoring" type="462c0819:PsiDirectoryNode" />
-              <item name="person_tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="continous_monitoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="continous_monitoring" type="462c0819:PsiDirectoryNode" />
-              <item name="person_tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="detector" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,7 +172,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="814" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -313,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
