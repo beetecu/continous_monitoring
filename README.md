@@ -3,9 +3,11 @@
 This repo provides several samples about how to develop a continuous monitoring system for streaming cameras. Mainly, the frames from the streaming cameras are processed (ex. person tracking, object detection, face detection) and the results are sent to [Devo](www.devo.com) platform for monitoring. 
  
 The main components are:
-*Openvino/Opencv Libs -> to process the frames generating an event with the results (bounding box, performance, errors, etc.) 
-*Devo -> for events monitoring
-*Docker -> for debugging and application deploy
+*Openvino/Opencv Libs* -> to process the frames generating an event with the results (bounding box, performance, errors, etc.) 
+
+*Devo* -> for events monitoring
+
+*Docker* -> for debugging and application deploy
 
 The docker file build a basic image common to all samples. This basic image set the OpenVino environment and the Devo sdk library. 
 
