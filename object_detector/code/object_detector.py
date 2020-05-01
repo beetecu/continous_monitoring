@@ -88,6 +88,8 @@ class FramesThreadBody:
             if has_frames:
                 self.frames_queue.put(frames)
 
+
+
 def run(params, pid, logger):
 
     capture = MultiStreamerCapture(logger, params.i)
@@ -176,8 +178,9 @@ def run(params, pid, logger):
     thread_body.process = False
     frames_thread.join()
 
-def signal_handler(process, signal, frame, logger):
+def signal_handler(process, logger):
     logger.info("INFO", "SIGNAL received. Terminating process....")
+    #print("SIGNAL received. Terminating process....")
     process.terminate()
 
 def getArgs():
@@ -217,7 +220,7 @@ def main():
     logger = Log(args.tdetect, args.tstat, args.tinfo, args.source, args.sendlogs, args.devo_server, args.devo_port)
     while True:
         process = Process(target=run, args = (args, pid, logger))
-        signal.signal(signal.SIGUSR1, partial(signal_handler, process))
+        signal.signal(signal.SIGUSR1, partial(signal_handler, process, logger))
         process.start()
         process.join()
         timesRestarted += 1

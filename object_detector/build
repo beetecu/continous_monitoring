@@ -1,0 +1,41 @@
+Sending build context to Docker daemon  17.24MB
+Step 1/13 : FROM openvinodevosdk/basic
+ ---> c0cd10554e7a
+Step 2/13 : LABEL maintainer="eliza.gonzalez@devo.com"
+ ---> Using cache
+ ---> ccd0641f7078
+Step 3/13 : RUN mkdir APP
+ ---> Using cache
+ ---> dfc801c9d19a
+Step 4/13 : RUN mkdir APP/CERTS
+ ---> Using cache
+ ---> ac261cde0320
+Step 5/13 : COPY CERTS APP/CERTS
+ ---> Using cache
+ ---> e4ef1ef18084
+Step 6/13 : RUN mkdir APP/models
+ ---> Using cache
+ ---> 4de6bbb3cf30
+Step 7/13 : COPY models APP/models
+ ---> Using cache
+ ---> de1925a69fbc
+Step 8/13 : RUN mkdir APP/utils
+ ---> Using cache
+ ---> 83b37595bdc0
+Step 9/13 : COPY code/utils APP/utils
+ ---> Using cache
+ ---> fd4d5bc24821
+Step 10/13 : COPY code/*.py APP/
+ ---> 920d079206ef
+Step 11/13 : WORKDIR APP
+ ---> Running in 2dab79ec4fb0
+Removing intermediate container 2dab79ec4fb0
+ ---> c216b441ff72
+Step 12/13 : ADD start.sh /
+ ---> f01eb29f6cc0
+Step 13/13 : ENTRYPOINT ["/start.sh"]
+ ---> Running in 1237ab6181ff
+Removing intermediate container 1237ab6181ff
+ ---> 25b6d1f3bd8c
+Successfully built 25b6d1f3bd8c
+Successfully tagged openvinodevosdk/object_detection:latest
